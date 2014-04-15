@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/map_bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/map_rote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="制定路线" />
+
+        <Button
+            android:id="@+id/map_site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的位置" />
+
+        <Button
+            android:id="@+id/map_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享足迹" />
+    </LinearLayout>
+</FrameLayout>
+</LinearLayout>

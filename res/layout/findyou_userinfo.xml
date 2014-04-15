@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        
+        <ImageButton
+            android:id="@+id/userinfo_usericon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/user_icon"
+            android:layout_margin="10dip"
+            />
+        
+    </LinearLayout>
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="昵称"
+	        android:layout_margin="10dip"/>
+	    
+	    <EditText 
+	        android:id="@+id/userinfo_username"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"/>
+	</LinearLayout>
+	
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="性别"
+	        android:layout_margin="10dip"/>
+	    
+		<RadioGroup 
+		    android:id="@+id/userinfo_radiogroup"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    
+		    <RadioButton 
+		        android:id="@+id/userinfo_man"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="男"/>
+		    
+		    
+		    <RadioButton 
+		        android:id="@+id/userinfo_woman"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="女"/>
+		    
+		</RadioGroup>    
+	</LinearLayout>
+	
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+		
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"
+	        android:text="生日"/>
+	   
+		<TextView
+		    android:id="@+id/userinfo_date" 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="10dip"
+		    />    
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"
+	        android:text="个性签名"
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/userinfo_description"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"
+	        android:text="地址"
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/userinfo_address"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"
+	        android:text="职业"
+	        />
+	    
+	    <EditText 
+	        android:id="@+id/userinfo_profession"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"/>
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="horizontal">
+	    
+	    <Button 
+	        android:id="@+id/userinfo_submit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="确定"/>
+	    
+	    <Button 
+	        android:id="@+id/userinfo_cancel"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="取消"/>
+	</LinearLayout>
+
+</LinearLayout>

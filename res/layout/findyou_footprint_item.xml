@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <FrameLayout 
+        android:id="@+id/foot_imagelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/foot_imageview" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/foot_loacition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="right"
+        android:text="黄山猴林" />
+
+    </FrameLayout>
+    <TextView 
+        android:id="@+id/foot_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView 
+        android:id="@+id/foot_nowdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        />
+</LinearLayout>
